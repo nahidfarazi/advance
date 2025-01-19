@@ -1,0 +1,5 @@
+package structs
+
+func Structs(){
+
+}
