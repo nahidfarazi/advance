@@ -1,11 +1,11 @@
-package arrays
+package main
 
 import (
 	"fmt"
 )
 var p = fmt.Println
 
-func Arrays(){
+func main(){
 	// array declaration --> method 1
 	/* var keyword --> array name [size] type */
 	var numbers [4] int
@@ -19,6 +19,8 @@ func Arrays(){
 	// array declaration --> method 2
 	/* array name := [size] type {elements} */
 	foods := [4]string{"apple","mango","banana","lemon"}
-	p(foods)
+	for i,v := range foods{
+		fmt.Printf("index:%d, value:%s\n",i,v)
+	}
 	
 }
