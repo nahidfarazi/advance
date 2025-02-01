@@ -15,7 +15,7 @@ import (
 
 var (
         port      = "8080" // Default port
-        shareDir  = "."    // Default sharing directory
+        shareDir  = "./file"    // Default sharing directory
         baseURL   string
         startTime time.Time
         fileList  []string
